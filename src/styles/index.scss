@@ -1,0 +1,151 @@
+$theme-colors: (
+  "primary": #6200ea,
+  "success": #33691e,
+  "danger": #f50057,
+  "warning": #ffab00,
+);
+
+// Bootstrap and its default variables
+@import "~bootstrap/scss/bootstrap";
+
+body {
+  padding-top: 5rem; // 5 rem  = 5*16
+}
+
+.App {
+  background-color: #f7f7f9;
+}
+body {
+  background-color: #f7f7f9;
+}
+i.fa.fa-home {
+  color: orange;
+}
+a {
+  color: #24282c;
+  text-decoration: none;
+  background-color: transparent;
+}
+th {
+  font-size: 10px;
+}
+.fa-edit{
+  color:#2962ff;
+}
+
+.fa-trash-o{
+  color: red;
+}
+span.fa.fa-trash-o {
+  margin: 10px;
+}
+i.fa.fa-ban {
+  margin: 10px;
+  color: #ffab00;
+}
+.selected {
+  background-color: #fff;
+    color: rgb(0, 0, 0);
+  }
+
+  td {
+    font-size: initial;
+}
+.table td {
+  border-top: 9px
+solid #dee2e6;
+}
+.Toastify__toast-theme--light{
+  background-color: #33691e;
+  color: #dee2e6;
+}
+.page-link {
+  color: #000000;
+}
+
+li.page-lin {
+  background-color: blue;
+  width: 25px;
+  color: #fff;
+  /* border: 8
+px
+; */
+  padding: 7px;
+  margin: 0px;
+  /* border: 19
+px
+; */
+border-radius: 11px;
+}
+
+.round {
+  width: 100%;
+  border-radius: 15px;
+  border: 1px #000 solid;
+  padding: 5px 5px 5px 25px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5;
+}
+
+// .corner {
+//   position: absolute;
+//   top: 3px;
+//   left: 5px;
+//   height: 20px;
+//   width: 20px;
+//   z-index: 10;
+//   border-radius: 10px;
+//   border: none;
+//  // background: #000; /* Set the bg image here. with "no-repeat" */
+// }
+
+.search {
+  position: relative;
+  width: 190px;
+  height: 30px;
+  margin-left: 365px;
+}
+
+form#search-form {
+  padding: 19px;
+}
+
+// button.btn.btn-default {
+//   width: 185px;
+//   background-color: #ffff;
+//   border-radius: 24px;
+//   height: 45px;
+//   margin-left: 195;
+//   margin-top: -27px;
+// }
+
+
+.navbar-brand {
+  font-size: 23px;
+  
+}
+a.btn.btn-light {
+  font-size: 17px;
+}
+input.round {
+  margin-left: 100px;
+}
+
+select#cars {
+  width: 96px;
+  border-radius: 13px;
+  background-color: #ffff;
+  margin: 0px;
+  padding: 5px;
+}
+a.student-management {
+  color: #6200ea;
+  padding: 5px;
+  font-size: 24px;
+}
+.stdent-manage {
+  margin-left: 350px;
+  padding: 17px;
+}
